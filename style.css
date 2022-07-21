@@ -1,0 +1,45 @@
+*,*:after,*:before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+ body{
+     font-family:'Times New Roman', Times, serif;
+     font-size: 16px;
+     margin:0;
+     background:linear-gradient(to right bottom, #ead7e01f, #dcdbd7);
+     display: flex;
+     align-items:center;
+     justify-content: center;
+     min-height: 100vh;
+     color: rgb(13, 56, 150);
+ }
+ .voice_to_text{
+     width:600px;
+     text-align: center;
+ }
+ #convert_text{
+     width: 100%;
+     height:200px;
+     border-radius: 10 px;
+     resize: none;
+     padding: 10px;
+    font-size:20px;
+    margin-bottom:10px;
+ }
+
+ h1{
+     font-size:40px;
+     color:rgba(15, 72, 105, 0.812); 
+ }
+
+ button{
+     padding:12px 20px;
+     background:rgba(15, 72, 105, 0.812);
+     border:0;
+     border-radius:5px;
+     cursor:pointer;
+     color: #fff;
+ }
